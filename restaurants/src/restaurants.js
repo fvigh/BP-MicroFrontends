@@ -1,4 +1,4 @@
-const API_SERVER = "https://static-bpmf.herokuapp.com";
+const API_SERVER = "https://mfebp1.herokuapp.com/";
 
 export const getRestaurants = () =>
   fetch(`${API_SERVER}/restaurants`).then((res) => res.json());
