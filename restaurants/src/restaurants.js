@@ -1,4 +1,4 @@
-const API_SERVER = "https://static-bp-mf.vercel.app";
+const API_SERVER = "https://static-bpmf.herokuapp.com";
 
 export const getRestaurants = () =>
   fetch(`${API_SERVER}/restaurants`).then((res) => res.json());
