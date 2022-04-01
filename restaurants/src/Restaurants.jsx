@@ -19,7 +19,7 @@ export default function HomeContent() {
           <div key={restaurant.id}>
             <Link to={`/restaurant/${restaurant.id}`}>
               <div class="max-w-xs m-2 mb-4 overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
-                <img class="object-cover object-center w-full h-40" src={`http://localhost:8080/${restaurant.id}-sm.jpg`} alt={restaurant.name}></img>
+                <img class="object-cover object-center w-full h-40" src={`https://static-bpmf.herokuapp.com/${restaurant.id}-sm.jpg`} alt={restaurant.name}></img>
 
                 <div class="flex items-center px-6 py-3 bg-gray-700">
                   <h1 class="mx-3 text-lg font-semibold text-white">~ {restaurant.delivery_estimate} min</h1>
