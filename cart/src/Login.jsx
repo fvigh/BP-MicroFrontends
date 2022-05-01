@@ -14,7 +14,7 @@ export default function Login() {
 
     useOnClickOutside(ref, () => setShowLogin(!showLogin));
 
-    const [username, setUsername] = useState("jj");
+    const [username, setUsername] = useState("sally");
     const [password, setPassword] = useState("123");
 
     if (loggedIn) return null;
