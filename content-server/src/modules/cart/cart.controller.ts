@@ -29,7 +29,7 @@ const initialCart = (indexes: number[]): Cart => ({
 @Controller('cart')
 export class CartController {
   private carts: Record<number, Cart> = {
-    1: initialCart([0]),
+    1: initialCart([null]),
     2: initialCart([0]),
   };
 
