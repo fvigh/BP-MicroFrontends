@@ -72,13 +72,6 @@ export default function Login() {
                                         <input type="password" id="sign-in-email" class=" rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Your password" value={password} onChange={(evt) => setPassword(evt.target.value)} />
                                     </div>
                                 </div>
-                                <div class="flex items-center mb-6 -mt-4">
-                                    <div class="flex ml-auto">
-                                        <a href="#" class="inline-flex text-xs font-thin text-gray-500 sm:text-sm dark:text-gray-100 hover:text-gray-700 dark:hover:text-white">
-                                            Forgot Your Password?
-                                        </a>
-                                    </div>
-                                </div>
                                 <div class="flex w-full">
                                     <button type="submit" class="py-2 px-4  bg-blue-500 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg " onClick={() => login(username, password)}
                                         id="loginbtn">
@@ -86,13 +79,6 @@ export default function Login() {
                                     </button>
                                 </div>
                             </form>
-                        </div>
-                        <div class="flex items-center justify-center mt-6">
-                            <a href="#" target="_blank" class="inline-flex items-center text-xs font-thin text-center text-gray-500 hover:text-gray-700 dark:text-gray-100 dark:hover:text-white">
-                                <span class="ml-2">
-                                    You don&#x27;t have an account?
-                                </span>
-                            </a>
                         </div>
                     </div>
                 </div>
